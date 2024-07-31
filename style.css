@@ -55,7 +55,7 @@
           .responsive-img {
 
             
-            width: 320px;
+            width: 130px;
             height: auto;
             
             @media (min-width: 500px) {
