@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "georgia";
+  src: url("georgia.ttf") format("truetype");
+}
+
+       header {
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }        
+
+        /* 设置页面主体样式 */
+        body {
+          width: 100%; /* 设置宽度为页面宽度的80% */
+          margin: 0 auto; /* 设置左右边距为自动，实现居中 */
+          padding: 10px; /* 设置内边距 */
+        }
+
+        /* 设置电脑端样式 */
+        @media (min-width: 1024px) {
+          body {
+            width: 70%; /* 设置宽度为页面宽度的50% */
+            margin: 0 25%; /* 设置左右边距为25% */
+          }
+        }
+                
+                
+        body {
+            background-color: #b6c7ea;
+            color: #FFFFFF;
+            font-family: "georgia", Times New Roman, Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+
+
+            @media (min-width: 500px) {
+            margin-top: 0%;
+            margin-bottom: 20%;
+            margin-left: 25%;
+            margin-right: 25%;
+            }
+                
+            @media (max-width: 500px) {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            }
+            
+
+        }
+
+        a {
+          color: #D78F54;
+        }
+
+        a {
+          text-decoration: underline;
+        }
+
+        a:visited {
+          color: #000000;
+        }
+
+
+          /* 响应式图片样式 */
+          .responsive-img {
+
+            
+            max-width: 100%;
+            height: auto;
+            
+            @media (min-width: 500px) {
+                    .responsive-img {
+                    max-width: 50%;
+                    height: auto;
+                    }}
+            margin: 0 auto; /* 水平居中 */
+            display: block; /* 去除默认的行内元素样式 */
+          }
