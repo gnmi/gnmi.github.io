@@ -6,7 +6,26 @@
         <meta name="description" content="Guannan Mi | academic website">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" type="text/css" href="style.css">
-    
+
+        <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        .left-column {
+            flex: 1; /* 占据1/3宽度 */
+            padding: 10px;
+        }
+        .right-column {
+            flex: 2; /* 占据2/3宽度 */
+            padding: 10px;
+        }
+        .left-column img {
+            width: 100%; /* 图片占据列的全部宽度 */
+            height: auto; /* 高度自动适应 */
+        }
+        </style>
+        
 </head>
 <!-- ************** 以下是页眉的部分，里面包括了导航栏目 ************** -->
 
@@ -22,18 +41,21 @@
 </div>
 
 
-<div>
-<p><img src="mi_pic.png" alt="mi_pic" class="responsive-img"></p>
-</div>
 
-<div>
-<p>
-<a href="about.html" target="_blank">About me</a>
-<a href="research.html" target="_blank">Research</a>
-<a href="mi_CV.pdf" target="_blank">My CV</a>
-</ul>
-</p>
+    <div class="container" style="text-align: left;">
+        <div class="left-column">
+            <img src="mi_pic.png" alt="mi_pic" class="responsive-img">
+        </div>
+        <div class="right-column">
+                <p><a href="about.html" target="_blank">About me</a>
+                <br><a href="research.html" target="_blank">Research</a>
+                <br><a href="mi_CV.pdf" target="_blank">My CV</a>
+                </ul>
+                </p>
+        </div>
+    </div>
 
+      
 </body>
 
 <center><object type="text/html" data="foot.html"></object></center>
