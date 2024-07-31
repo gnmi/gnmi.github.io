@@ -22,7 +22,7 @@
             background-color: #b6c7ea;
             color: #FFFFFF;
             font-family: "georgia", Times New Roman, Helvetica, Arial, sans-serif;
-            font-size: 18px;
+            font-size: 26px;
             line-height: 1.5;
 
 
@@ -34,10 +34,10 @@
             }
                 
             @media (max-width: 500px) {
-            margin-top: 0;
-            margin-bottom: 0;
-            margin-left: 0;
-            margin-right: 0;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
             }
         }
 
