@@ -53,15 +53,12 @@
         }
 
         a {
-          color: #D78F54;
-        }
-
-        a {
+          color: #FFFFFF;
           text-decoration: underline;
         }
 
         a:visited {
-          color: #000000;
+          color: #FFFFFF;
         }
 
 
