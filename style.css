@@ -66,12 +66,12 @@
           .responsive-img {
 
             
-            max-width: 100%;
+            max-width: 320px;
             height: auto;
             
             @media (min-width: 500px) {
                     .responsive-img {
-                    max-width: 50%;
+                    max-width: 35%;
                     height: auto;
                     }}
             margin: 0 auto; /* 水平居中 */
