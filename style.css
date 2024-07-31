@@ -30,28 +30,6 @@
             margin-left: 20%;
             margin-right: 20%;
 
-        .large-text {
-            font-size: 36px; /* 设置较大的字体大小 */
-        }  
-          
-        .container {
-            display: flex;
-            flex-direction: row;
-                width: 60%;
-                border: 1px dotted white;
-        }
-        .left-column {
-            flex: 1; /* 占据1/4宽度 */
-            padding: 25px;
-        }
-        .right-column {
-            flex: 3; /* 占据3/4宽度 */
-            padding: 40px;
-        }
-        .left-column img {
-            width: 100%; /* 图片占据列的全部宽度 */
-            height: auto; /* 高度自动适应 */
-        }
           
         a {
           color: #FFFFFF;
