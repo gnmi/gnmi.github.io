@@ -17,16 +17,7 @@
           margin: 0 auto; /* 设置左右边距为自动，实现居中 */
           padding: 10px; /* 设置内边距 */
         }
-
-        /* 设置电脑端样式 */
-        @media (min-width: 1024px) {
-          body {
-            width: 70%; /* 设置宽度为页面宽度的50% */
-            margin: 0 25%; /* 设置左右边距为25% */
-          }
-        }
-                
-                
+                        
         body {
             background-color: #b6c7ea;
             color: #FFFFFF;
@@ -48,8 +39,6 @@
             margin-left: 0;
             margin-right: 0;
             }
-            
-
         }
 
         a {
@@ -66,12 +55,12 @@
           .responsive-img {
 
             
-            max-width: 320px;
+            width: 320px;
             height: auto;
             
             @media (min-width: 500px) {
                     .responsive-img {
-                    max-width: 35%;
+                    width: 35%;
                     height: auto;
                     }}
             margin: 0 auto; /* 水平居中 */
