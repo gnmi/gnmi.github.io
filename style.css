@@ -41,15 +41,15 @@
                 border: 1px dotted white;
         }
         .left-column {
-            flex: 1; /* 占据1/2宽度 */
+            flex: 1; /* 占据1/4宽度 */
             padding: 25px;
         }
         .right-column {
-            flex: 1; /* 占据1/2宽度 */
+            flex: 3; /* 占据3/4宽度 */
             padding: 40px;
         }
         .left-column img {
-            width: 130px; /* 图片占据列的全部宽度 */
+            width: 100%; /* 图片占据列的全部宽度 */
             height: auto; /* 高度自动适应 */
         }
           
