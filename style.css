@@ -38,3 +38,8 @@
             margin: 0 auto; /* 水平居中 */
             display: block; /* 去除默认的行内元素样式 */
           }
+
+          p {
+            word-break: normal;
+            white-space: normal;
+          }
