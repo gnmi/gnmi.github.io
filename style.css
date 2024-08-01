@@ -43,16 +43,8 @@
 
           /* 响应式图片样式 */
           .responsive-img {
-
-            
             width: 130px;
             height: auto;
-            
-
-            .responsive-img {
-            width: 35%;
-            height: auto;
-            }
             margin: 0 auto; /* 水平居中 */
             display: block; /* 去除默认的行内元素样式 */
           }
