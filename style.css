@@ -1,15 +1,7 @@
 @font-face {
   font-family: "georgia";
   src: url("georgia.ttf") format("truetype");
-}
-
-       header {
-            width: 100%;
-            margin-top: 0;
-            margin-bottom: 0;
-            margin-left: 0;
-            margin-right: 0;
-        }        
+}   
 
         /* 设置页面主体样式 */
         body {
