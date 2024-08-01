@@ -5,7 +5,7 @@
 
         /* 设置页面主体样式 */
         body {
-          width: 100%; /* 设置宽度为页面宽度的100% */
+          width: 60%; /* 设置宽度为页面宽度的100% */
           margin: 0 auto; /* 设置左右边距为自动，实现居中 */
           padding: 5px; /* 设置内边距 */
           overflow-x: hidden;
